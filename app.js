@@ -1,7 +1,7 @@
 //Modulos
 const express = require('express');
 const mysql = require('mysql2');
-
+//BodyParser
 const bodyParser = require('body-parser');
 
 var moment = require('moment');
