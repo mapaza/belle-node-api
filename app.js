@@ -17,8 +17,9 @@ app.use(bodyParser.json());
 const connection = mysql.createConnection({
   host: 'us-cdbr-east-04.cleardb.com',
   user: 'b0c6cd4c0b3ae7',
-  password: '',
-  database: 'heroku_dd22c88bb0b436d'  
+  password: '9ed932ed',
+  database: 'heroku_dd22c88bb0b436d',
+  port:"3306"
 });
 
 /*connection.connect(error => {
