@@ -13,7 +13,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-// MySql
+// MySql Connection
 const connection = mysql.createConnection({
   host: 'us-cdbr-east-04.cleardb.com',
   user: 'b0c6cd4c0b3ae7b0c6cd4c0b3ae7',
