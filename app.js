@@ -15,15 +15,13 @@ app.use(bodyParser.json());
 
 // MySql
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: 'tecsup',
-  database: 'startup_app'
+  host: 'us-cdbr-east-04.cleardb.com',
+  user: 'b0c6cd4c0b3ae7b0c6cd4c0b3ae7',
+  password: '9ed932ed',
+  database: 'heroku_dd22c88bb0b436d'
+  
 });
 
-bcrypt.hash( 'passwordToHash', 10, function( err, hash ) {
-    // Store hash in database
-  });
 /*connection.connect(error => {
     if (error) throw error;
     console.log("Database server Running!");
